@@ -1,5 +1,5 @@
 import Web3 from 'web3';
-import ABI from '../contracts/SimpleStorageABI.json';
+import ABI from '../contracts/HospitalQueueABI.json';
 
 // Testnet (Sepolia) or Local Node Address
 const CONTRACT_ADDRESS = "0x5FbDB2315678afecb367f032d93F642f64180aa3"; 
