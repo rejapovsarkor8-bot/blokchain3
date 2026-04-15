@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Minting DApp Presentation</title>
+    <!-- Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/dracula.min.css" id="theme">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Slide 1 -->
+            <section data-auto-animate>
+                <h1 style="color: #ec4899;">NFT Minting DApp</h1>
+                <h3>Web3 texnologiyalari loyihasi</h3>
+                <p>
+                    <small>Yaratuvchi: Siz! 🚀 | DApp Texnologiyalari: React / Web3.js / ERC-721</small>
+                </p>
+            </section>
+
+            <!-- Slide 2 -->
+            <section data-auto-animate>
+                <h2 style="color: #8b5cf6;">1. Asosiy Maqsad</h2>
+                <ul>
+                    <li class="fragment">Foydalanuvchilar o'zining shaxsiy <strong>NFT'larini yaratishi (Minting)</strong>.</li>
+                    <li class="fragment">Yaratilgan barcha NFT rasm va meta-data larini sahifada <strong>CRUD usulida (Read/O'qish)</strong> ko'ra olish.</li>
+                    <li class="fragment">To'liq xavfsiz va markazlashtirilmagan ERC721 OpenZeppelin protokoli!</li>
+                </ul>
+            </section>
+
+            <!-- Slide 3 -->
+            <section>
+                <h2>2. Arxitektura & Texnologiyalar</h2>
+                <div style="display: flex; justify-content: space-around;">
+                    <div>
+                        <h4 style="color: #3b82f6;">Smart Kontrakt</h4>
+                        <p style="font-size: 24px;">Solidity ^0.8.20<br/>OpenZeppelin ERC721<br/>ERC721Enumerable</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #10b981;">Frontend (UI)</h4>
+                        <p style="font-size: 24px;">React.js + Vite<br/>Web3.js provayder<br/>Glassmorphism UX</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4 -->
+            <section>
+                <h2>3. Interfeys (UI/UX) va Holatlar</h2>
+                <ul>
+                    <li><span style="color: yellow;">Pending (Kutish):</span> Tarmoq tranzaksiyani tasdiqlayotganda foydalanuvchida qotib qolmasligi uchun yuklanish animatsiyasi chqadi.</li>
+                    <li><span style="color: lightgreen;">Success & Renders:</span> Jarayon bitgach NFT avtomatik ekranda chiziladi (CRUD).</li>
+                </ul>
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGNzZWNscmVwOGZnaHBueGRpeGd0OTFveThxdWR1OXk2OXl0aWFmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L59aKIC2IKaI0/giphy.gif" alt="Success" width="300" style="border-radius: 10px;">
+            </section>
+
+            <!-- Slide 5 -->
+            <section>
+                <h1 style="color: #10b981;">E'tiboringiz UCHUN RAHMAT!</h1>
+                <h3>Loyiha taqdimoti o'z yakuniga yetdi.</h3>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide' // none/fade/slide/convex/concave/zoom
+        });
+    </script>
+</body>
+</html>
